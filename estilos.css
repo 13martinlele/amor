@@ -1,0 +1,43 @@
+body{
+    background-image: url("coracao.jpg");
+   
+}
+
+.painel{
+    margin: auto;
+
+    max-width: 550px;
+   
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#sim{
+    height: 40px;
+    width: 60px;
+    background-color: rgb(206, 220, 224);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    margin-left: -50px;
+}
+#nao{
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    background-color: rgb(206, 220, 224);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+a{
+  display: inline;
+  width: 20px;
+  background: blue;
+}
+h1{
+   display: inline;
+}
