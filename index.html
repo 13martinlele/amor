@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>♥te amoooo♥</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+
+    <div class="painel">
+        <h1><b> VAMOS ASSISTIR CREPUSCULO???</b></h1>
+
+        <img src="./EVE.gif" alt="">
+
+        <h2>ESCOLHA COM SABEDORIA</h2>
+       
+
+        <a href="https://2.bp.blogspot.com/-FlA-zAZKDDg/T1DnR-x7Y6I/AAAAAAAAApw/zCrWGFl51_Y/w1200-h630-p-k-no-nu/0-24656800-1330669654-394799_320793814608062_177537108933734_1072946_118025503_n-jpg.jpg"><button id="sim" > SIM! </button></a>
+        <button onmouseover="fuja()" id="nao"> NÃO! </button>
+    
+       
+    </div>
+
+    <script>
+        function fuja(){
+            var botaoNao = document.getElementById("nao")
+
+            var larguraJanela = window.innerWidth;
+            var alturaJanela = window.innerHeight;
+
+            var maxX = larguraJanela - botaoNao.offsetWidth;
+            var maxY = alturaJanela - botaoNao.offsetHeight;
+
+            var aleatorioX = Math.floor(Math.random() * maxX);
+            var aleatorioY = Math.floor(Math.random() * maxY);
+
+            botaoNao.style.left = aleatorioX + "px";
+            botaoNao.style.top = aleatorioY + "px";
+
+            
+
+        }
+    </script>
+
+
+
+   
+</body>
+</html>
